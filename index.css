@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+
+}
+body .navbar{
+    background: var(--seven-gray)!important;
+}
+.container-fluid .navbar-brand{
+    font-weight: 600;
+    font-style: italic;
+    color: var(--second-orange);
+}
+.container-fluid a{
+    color: var(--second-orange);
+    text-shadow: 1px 1px 5px rgb(195, 194, 194);
+    transition: ease-in-out 0.2s all;
+}
+.container-fluid a:hover{
+    color: var(--third-purple);
+    transform: scale(1.1);
+}
+.container-fluid .btn{
+    color: var(--second-orange);
+    font-weight: 600;
+    border: 1px solid black;
+}
+.container-fluid .btn:hover{
+    background-color: var(--third-purple);
+    color: var(--fifth-abano);
+}
+section{
+    width: 100%;
+    margin-top: 60px;
+    background-color: var(--primary-white);
+    height: 100vh;
+}
+header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.Img-presentation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Img-presentation img{
+    display: inline-block;
+}
+.Img-presentation div{
+    padding: 5rem;
+    display: flex;
+    align-items: start;
+}
+.Img-presentation div p{
+    position: relative;
+    top: -8rem;
+}
+.img{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.img-header{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.smoke{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(0,0,0,0.4), rgba(0, 0, 0, 0.6));
+    opacity: 1;
+    pointer-events: none;
+}
+
+.projects .swiper{
+    height: 100vh;
+    width: 85vw;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper .swiper-wrapper{
+    background-color: red;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-wrapper .swiper-slide{
+}
